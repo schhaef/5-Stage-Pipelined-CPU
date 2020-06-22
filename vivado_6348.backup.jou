@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 21 15:16:56 2019
+# Process ID: 6348
+# Current directory: C:/Users/ads5915/Desktop/FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3484 C:\Users\ads5915\Desktop\FinalProject\FinalProject.xpr
+# Log file: C:/Users/ads5915/Desktop/FinalProject/vivado.log
+# Journal file: C:/Users/ads5915/Desktop/FinalProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ads5915/Desktop/FinalProject/FinalProject.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

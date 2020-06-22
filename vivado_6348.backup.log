@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 21 15:16:56 2019
+# Process ID: 6348
+# Current directory: C:/Users/ads5915/Desktop/FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3484 C:\Users\ads5915\Desktop\FinalProject\FinalProject.xpr
+# Log file: C:/Users/ads5915/Desktop/FinalProject/vivado.log
+# Journal file: C:/Users/ads5915/Desktop/FinalProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ads5915/Desktop/FinalProject/FinalProject.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 699.914 ; gain = 78.535
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1616.680 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1616.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1616.680 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 1748.781 ; gain = 967.590
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Dec 21 15:18:14 2019] Launched impl_1...
+Run output will be captured here: C:/Users/ads5915/Desktop/FinalProject/FinalProject.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 21 15:20:15 2019...

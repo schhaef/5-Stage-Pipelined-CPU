@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.sim/sim_1/behav/xsim/glbl.v,1576958649,verilog,,,,glbl,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sim_1/new/test_bench.v,1576872754,verilog,,,,test_bench,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sim_1/new/test_clk.v,1576110470,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sim_1/new/test_bench.v,,test_clk,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/ALU.v,1576958652,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/Data_memory.v,,ALU,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/Data_memory.v,1576958652,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/EXE_MEM.v,,Data_memory,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/EXE_MEM.v,1576869483,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/ID_EXE.v,,EXE_MEM,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/ID_EXE.v,1576112270,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/IF_ID.v,,ID_EXE,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/IF_ID.v,1576110470,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/Instruction_memory.v,,IF_ID,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/Instruction_memory.v,1576867723,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/MEM_WB.v,,Instruction_memory,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/MEM_WB.v,1576110470,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/MuxFourWay.v,,MEM_WB,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/MuxFourWay.v,1576716846,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/PC_register.v,,MuxFourWay,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/PC_register.v,1576110470,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/Reg_file.v,,PC_register,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/Reg_file.v,1576873880,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/adder.v,,Reg_file,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/adder.v,1576864623,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/controlunit.v,,adder,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/controlunit.v,1576871345,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/mux.v,,controlunit,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/mux.v,1576110470,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/mux2.v,,mux,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/mux2.v,1576111238,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/sign_ext.v,,mux2,,,,,,,,
+C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sources_1/new/sign_ext.v,1576110470,verilog,,C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/sim_1/new/test_clk.v,,sign_ext,,,,,,,,

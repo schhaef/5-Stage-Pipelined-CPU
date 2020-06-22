@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 21 14:19:17 2019
+# Process ID: 3948
+# Current directory: C:/Users/ads5915/Desktop/FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11148 C:\Users\ads5915\Desktop\FinalProject\FinalProject.xpr
+# Log file: C:/Users/ads5915/Desktop/FinalProject/vivado.log
+# Journal file: C:/Users/ads5915/Desktop/FinalProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ads5915/Desktop/FinalProject/FinalProject.xpr
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+file mkdir C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/constrs_1
+file mkdir C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/constrs_1/new
+close [ open C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/constrs_1/new/bitstream.tcl w ]
+add_files -fileset constrs_1 C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/constrs_1/new/bitstream.tcl
+import_files -fileset utils_1 C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/constrs_1/new/bitstream.tcl
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/utils_1/imports/new/bitstream.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/utils_1/imports/new/bitstream.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/Users/ads5915/Desktop/FinalProject/FinalProject.runs/impl_1/PC_register.bit C:/Users/ads5915/Desktop/FinalProject/FinalProject.srcs/constrs_1/new/bitstreamFile.bit
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
